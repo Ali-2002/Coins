@@ -4,6 +4,7 @@ import axios from "axios";
 import ExItem from "./ExItem";
 import Header from "../../components/Header";
 import Search from "../../components/Search";
+import ReturnHome from "../../components/ReturnHome";
 
 const Exclusive = () => {
 
@@ -21,6 +22,7 @@ const Exclusive = () => {
   return (
     <>
       <Header />
+      <ReturnHome/>
       <Search />
       {
         <div className="flex flex-wrap gap-x-6 gap-y-8 ">
